@@ -9,7 +9,7 @@ So, You can create and configure a WireGuard network connection by `nm-connectio
 2. Download last [release archive](https://github.com/chaykin/wireguard-state/releases) and unpack it
 3. Check config file `wgs.yaml`. It contains bash-script commands to control VPN. Adjust it, if needed: 
 provide actual Network Manager connection id (by default, `wg0`) for `wgUpCommand`, `wgStateCommand`, `wgDownCommand` and 
-WireGuard interface name (usually, `wg0`) for `rxCommand` and `txCommand`. Or, You can write own completely different command,
+WireGuard interface name (usually, `wg0`) for `rxCommand` and `txCommand`. Or, You can write own completely different commands,
 if You use different Linux distributive
 4. Run it.
 
