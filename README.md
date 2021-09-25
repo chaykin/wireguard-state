@@ -1,4 +1,4 @@
-# WireGuard-State
+# WireGuard-State [![Go](https://github.com/chaykin/wireguard-state/actions/workflows/go.yml/badge.svg)](https://github.com/chaykin/wireguard-state/actions/workflows/go.yml)
 System tray icon for WireGuard VPN
 
 Simple utility for control WireGuard VPN (check/enable/disable) by system tray icon. Tested on Ubuntu 21.04 only.
