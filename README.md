@@ -12,3 +12,9 @@ provide actual Network Manager connection id (by default, `wg0`) for `wgUpComman
 WireGuard interface name (usually, `wg0`) for `rxCommand` and `txCommand`. Or, You can write own completely different command,
 if You use different Linux distributive
 4. Run it.
+
+## Build
+```
+sudo apt-get install libgtk-3-dev libappindicator3-dev
+go build
+``` 
