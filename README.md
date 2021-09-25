@@ -3,7 +3,7 @@ System tray icon for WireGuard VPN
 
 Simple utility for control WireGuard VPN (check/enable/disable) by system tray icon. Tested on Ubuntu 21.04 only.
 
-##Installation
+## Installation
 1. Since You don't want to run this as root, You could delegate some work to Network Manager (It supports WireGuard since 1.26.2).
 So, You can create and configure a WireGuard network connection by `nm-connection-editor` 
 2. Download last release archive and unpack it
