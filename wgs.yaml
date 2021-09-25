@@ -1,0 +1,6 @@
+wgUpCommand: nmcli connection up wg0
+wgStateCommand: cat /proc/net/dev | grep wg0
+wgDownCommand: nmcli connection down wg0
+rxCommand: cat /proc/net/dev | grep -oP "wg0"':\s*\K\d+'
+txCommand: cat /proc/net/dev | grep -oP "wg0"':\s*(\d+\s+){8}\K\d+'
+refreshRate: 1
